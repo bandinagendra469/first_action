@@ -2,7 +2,7 @@ name: first_demo
 on: workflow_dispatch
 jobs:
   first-demo:
-  run-on: ubuntu-latest
+    run-on: ubuntu-latest
     steps:
       - name: print gretting
         run: echo "Hello world!"
